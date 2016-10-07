@@ -16,7 +16,11 @@
 </ul>
 <p>When you have this ready and the page is opening on your localhost go on the following tasks:</p>
 <ol>
-<li>
+<li>Style the front page using the provided psd. Only style elements that appear on the page (there is more items in psd).</li>
+<li>If some elements have different order, just style them where they are positioned.</li>
+<li>Header should be styled in a way that when you scroll down it sticks to the top. There is no design for that, but black background with white links should do it.</li>
+<li>Also style one of the news - click on it and style the right sidebar. Everything else should be more or less styled already.</li>
+<li>Please have in mind that this should look OK on mobile as well.</li>
 </ol>
 <h2>When done</h2>
 <ol>
