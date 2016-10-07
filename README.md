@@ -12,7 +12,7 @@
 <ul>
 <li>Fork this repository and clone the code to your computer.</li>
 <li>Install database which is in root folder of the repository.</li>
-<li>Update file sites/default/local.setting.inc using the instructions in that file.</li>
+<li>Update file sites/default/local.setting.php using the instructions in that file.</li>
 </ul>
 <p>When you have this ready and the page is opening on your localhost go on the following tasks:</p>
 <ol>
