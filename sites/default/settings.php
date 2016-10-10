@@ -753,7 +753,7 @@ $settings['file_scan_ignore_directories'] = [
 #   include __DIR__ . '/settings.local.php';
 # }
 
-require_once __DIR__ . '/local.settings.php';
+require_once __DIR__ . '/settings.local.php';
 
 $settings['install_profile'] = 'standard';
 $config_directories['sync'] = 'sites/default/files/config_7na3T1z3i9Sy2SdQVR8s3DIcIZecIJNmv7Cc1r3wOWKsPRx6_Py-cnPNOmorVXdvFGnzGnBaXA/sync';

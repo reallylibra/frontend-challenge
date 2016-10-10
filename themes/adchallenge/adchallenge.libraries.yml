@@ -2,7 +2,7 @@ global-styling:
   version: 1.x
   css:
     base:
-      stylesheets/style.css: {}
+      css/style.css: {}
 
   js:
     javascripts/scripts.js: {}

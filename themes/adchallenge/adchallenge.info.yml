@@ -5,5 +5,4 @@ description: 'Theme for Agiledrop Front-end challenge, which is used by develope
 version: 1.0
 core: 8.x
 libraries:
- - politika/global-styling
- - politika/politika-contextual
+ - adchallenge/global-styling
