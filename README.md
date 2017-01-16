@@ -15,7 +15,9 @@
 <li>Copy the file sites/default/example.settings.local.php to sites/default/settings.local.php. Update the file with the information for your database. Read the comment at the top of that file if you need better instructions.</li>
 </ul>
 <p>If you did everything right in previous steps the page should be opening on your localhost.</p>
-<p>Now it's time to begin the real work. Below are the tasks that you should accomplish:</p>
+<p>Now it's time to begin the real work. Below are the tasks that you should accomplish. The basic theme (called adchallenge) is already there and is enabled on the page. If you are not familiar with creating themes in Drupal 8, than you should check <a href="https://www.drupal.org/docs/8/theming" target="_blank">this</a> page first. It will help you understand what goes where.</p>
+<p>We would like you to use Sass for styling. It doesn't matter how you compile it to CSS, as long as we have Sass files as an end result as well.</p>
+<p>Oh, and the last thing - the username and password for the Drupal account is admin/admin.</p>
 <ol>
 <li>Style the front page using the provided psd. Only style elements that appear on the page. There is more elements in the design, but if we take the front page as an example, you only need to style header (logo and menu), four news items and a footer.</li>
 <li>If some elements have different order, just style them where they are positioned (hint: look at the news items on front page).</li>
