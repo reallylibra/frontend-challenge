@@ -1,6 +1,6 @@
 <h1>Agiledrop Front-end Challenge</h1>
 <p>If you want to be considered as a candidate for front-end developer, you will have to complete the following tasks.</p>
-<p><strong>If you know what you're doing, this task shouldn't take you longer than 2h.</strong></p>
+<p><strong>If you know what you're doing, this task shouldn't take you longer than 4h.</strong></p>
 <h2>Prerequisites</h2>
 <ul>
 <li>Since all our front-end developers work locally, you will have to be able to install the site on your computer. You can use MAMP (OS X), WAMP (Windows) or any other tool that you're used to.</li>
@@ -11,19 +11,20 @@
 <p>Your first task is to set the page locally:
 <ul>
 <li>Fork this repository and clone the code to your computer.</li>
-<li>Install database which is in root folder of the repository.</li>
-<li>Update file sites/default/local.setting.php using the instructions in that file.</li>
+<li>Install database which is in root folder of the repository to your machine. You can use Phpmyadmin or any other tool to do that.</li>
+<li>Copy the file sites/default/example.settings.local.php to sites/default/settings.local.php. Update the file with the information for your database. Read the comment at the top of that file if you need better instructions.</li>
 </ul>
-<p>When you have this ready and the page is opening on your localhost go on the following tasks:</p>
+<p>If you did everything right in previous steps the page should be opening on your localhost.</p>
+<p>Now it's time to begin the real work. Below are the tasks that you should accomplish:</p>
 <ol>
-<li>Style the front page using the provided psd. Only style elements that appear on the page (there is more items in psd).</li>
-<li>If some elements have different order, just style them where they are positioned.</li>
+<li>Style the front page using the provided psd. Only style elements that appear on the page. There is more elements in the design, but if we take the front page as an example, you only need to style header (logo and menu), four news items and a footer.</li>
+<li>If some elements have different order, just style them where they are positioned (hint: look at the news items on front page).</li>
 <li>Header should be styled in a way that when you scroll down it sticks to the top. There is no design for that, but black background with white links should do it.</li>
-<li>Also style one of the news - click on it and style the right sidebar. Everything else should be more or less styled already.</li>
+<li>Also style one of the news - click on it on front page list and style the right sidebar. Everything else should be more or less styled already.</li>
 <li>Please have in mind that this should look OK on mobile as well.</li>
 </ol>
 <h2>When done</h2>
 <ol>
 <li>Commit and Push your code to your new repository.</li>
-<li>Send us a pull request. We will review your code and get back to you.</li>
+<li>Send us a pull request and let us know about that. We will review your code and get back to you.</li>
 </ol>
