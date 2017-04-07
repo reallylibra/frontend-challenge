@@ -28,5 +28,5 @@
 <h2>When done</h2>
 <ol>
 <li>Commit and Push your code to your new repository.</li>
-<li>Send us a pull request and let us know about that. We will review your code and get back to you.</li>
+<li>Send us a link to your new repository you created on your Github account. We will review your code and get back to you.</li>
 </ol>
