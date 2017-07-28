@@ -1,0 +1,59 @@
+//
+// Grid
+// --------------------------------------------------
+
+// Center section
+.center {
+    padding: 160px 0 20px 0;
+}
+
+// Container
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    @media (max-device-width: 480px) and (orientation: portrait) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    @media (min-width: @screen-md-min) { 
+        width: @container-width;
+    }
+}
+
+// Container inner sides
+.inner-sides {
+    @media (min-width: @screen-sm-min) { 
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+.inner-side {
+    @media (min-width: @screen-sm-min) { 
+        padding-left: 80px;
+    }
+}
+
+// Rows
+.row {
+    margin-left: (@grid-gutter-width / -2);
+    margin-right: (@grid-gutter-width / -2);
+    &:extend(.clearfix all);
+}
+
+// Columns
+.col-sm-4 {
+   .make-column(4);
+}
+
+.col-sm-6 {
+    .make-column(6);
+}
+
+.col-sm-8 {
+    .make-column(8);
+}

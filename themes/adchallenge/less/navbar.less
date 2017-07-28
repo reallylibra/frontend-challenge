@@ -1,0 +1,71 @@
+//
+// Navbar
+// --------------------------------------------------
+
+.navbar {
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 120px;
+	z-index: 100;
+	
+	> div {
+	    &:extend(.clearfix all);
+	}
+	
+	// Navbar nav links
+	.navbar-nav {
+		float: right;
+		list-style: none;
+		margin-top: 50px;
+		padding-left: 0;
+		
+		> li {
+			cursor: pointer;
+			float: left;
+			text-transform: uppercase;
+			margin-left: 20px;
+			
+			@media (min-width: @screen-sm-min) {
+			    margin-left: 100px;
+			}
+			
+			&:first-child {
+			    margin-left: 0;
+			}
+			
+			a {
+		        color: @navbar-color;
+		    }
+		}
+	}
+	
+	&.scroll {
+	    background-color: #000;
+	    
+	    .navbar-nav > li a {
+	        color: #fff;
+	    }
+	}
+}
+
+// Logotype
+.logo {
+    display: inline-block;
+    float: left;
+    margin-top: 46px;
+    
+    img {
+        width: auto;
+        height: 25px;
+    }
+    
+    @media (max-device-width: 480px) and (orientation: portrait) {
+        margin-top: 48px;
+        
+        img {
+            height: 18px;
+        }
+    }
+}
