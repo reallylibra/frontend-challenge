@@ -222,13 +222,16 @@ img {
 .row:before,
 .row:after,
 .navbar > div:before,
-.navbar > div:after {
+.navbar > div:after,
+.view-content:before,
+.view-content:after {
   content: " ";
   display: table;
 }
 .clearfix:after,
 .row:after,
-.navbar > div:after {
+.navbar > div:after,
+.view-content:after {
   clear: both;
 }
 h2 {
@@ -342,6 +345,12 @@ p {
 .navbar .navbar-nav > li a {
   color: #626262;
 }
+.navbar.scroll {
+  background-color: #000;
+}
+.navbar.scroll .navbar-nav > li a {
+  color: #fff;
+}
 .logo {
   display: inline-block;
   float: left;
@@ -414,6 +423,50 @@ p {
 }
 .footer-menu li a {
   color: #000;
+}
+.layout-content {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+@media (max-device-width: 480px) and (orientation: portrait) {
+  .layout-content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .layout-content {
+    width: 1140px;
+  }
+}
+@media (min-width: 768px) {
+  .region-content {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+.view-content {
+  margin-left: -30px;
+  margin-right: -30px;
+}
+.views-row {
+  position: relative;
+  min-height: 1px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+@media (min-width: 768px) {
+  .views-row {
+    float: left;
+    width: 50%;
+  }
+}
+.views-row img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
