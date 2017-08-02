@@ -450,6 +450,12 @@ p {
 .view-content {
   margin-left: -30px;
   margin-right: -30px;
+  display: -webkit-flex;
+  /* Safari */
+  -webkit-flex-wrap: wrap;
+  /* Safari 6.1+ */
+  display: flex;
+  flex-wrap: wrap;
 }
 .views-row {
   position: relative;

@@ -26,11 +26,17 @@
     margin-left: (@grid-gutter-width / -2);
     margin-right: (@grid-gutter-width / -2);
     &:extend(.clearfix all);
+     display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;   
+    flex-wrap: wrap;
 }
 
 // Columns
 .views-row {
     .make-column(6);
+   // width: 300px;
+    
     
     img {
         .img-responsive;
