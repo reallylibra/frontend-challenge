@@ -26,7 +26,7 @@
     margin-left: (@grid-gutter-width / -2);
     margin-right: (@grid-gutter-width / -2);
     &:extend(.clearfix all);
-     display: -webkit-flex; /* Safari */
+    display: -webkit-flex; /* Safari */
     -webkit-flex-wrap: wrap; /* Safari 6.1+ */
     display: flex;   
     flex-wrap: wrap;
@@ -41,4 +41,14 @@
     img {
         .img-responsive;
     }
+}
+h2 a {
+ -webkit-transition: color 0.2s ease-in-out;
+	   -o-transition: color 0.2s ease-in-out;
+		  transition: color 0.2s ease-in-out;
+}
+
+h2 a:hover {
+    color: #000;
+    
 }
