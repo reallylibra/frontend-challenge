@@ -1,0 +1,38 @@
+.layout-content {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    @media (max-device-width: 480px) and (orientation: portrait) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    @media (min-width: @screen-md-min) { 
+        width: @container-width;
+    }
+}
+
+.region-content {
+   @media (min-width: @screen-sm-min) { 
+        padding-left: 80px;
+        padding-right: 80px;
+    } 
+}
+
+// Rows
+.view-content {
+    margin-left: (@grid-gutter-width / -2);
+    margin-right: (@grid-gutter-width / -2);
+    &:extend(.clearfix all);
+}
+
+// Columns
+.views-row {
+    .make-column(6);
+    
+    img {
+        .img-responsive;
+    }
+}
